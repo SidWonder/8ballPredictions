@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.ball__wrapper {
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.header__h1 {
+    text-align: center;
+}
+
+.ball__img {
+    background-image: url(./img/8ball.png);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.prediction {
+    position: absolute;
+    /* z-index: 1; */
+    color: wheat;
+    text-align: center;
+    /* padding-top: 46%; */
+    width: 80px;
+    margin: 0 auto;
+    word-break: normal;
+    bottom: 47%;
+    left: 42.5%;
+}
